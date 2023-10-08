@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.ictkerala.testcases.TestBase"/>
+      <class name="org.ictkerala.testcases.FacDashbdPageTest"/>
+      <class name="org.ictkerala.testcases.LoginPageTest"/>
+      <class name="org.ictkerala.testcases.AdmDashbdPageTest"/>
+      <class name="org.ictkerala.testcases.SignUpPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

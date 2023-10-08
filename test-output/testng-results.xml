@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-30T17:09:22 IST" name="Suite" finished-at="2023-09-30T17:12:58 IST" duration-ms="215509">
+    <groups>
+    </groups>
+    <test started-at="2023-09-30T17:09:22 IST" name="Test" finished-at="2023-09-30T17:12:58 IST" duration-ms="215509">
+      <class name="org.ictkerala.testcases.FacDashbdPageTest">
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.FacDashbdPageTest@22555ebf]" started-at="2023-09-30T17:09:22 IST" name="configMethod" finished-at="2023-09-30T17:09:31 IST" duration-ms="8367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.ictkerala.testcases.FacDashbdPageTest@22555ebf]" started-at="2023-09-30T17:09:31 IST" name="login" finished-at="2023-09-30T17:09:33 IST" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SearchEditReqt()[pri:1, instance:org.ictkerala.testcases.FacDashbdPageTest@22555ebf]" started-at="2023-09-30T17:09:33 IST" name="SearchEditReqt" description="verify search functionality" finished-at="2023-09-30T17:09:37 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEditReqt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.FacDashbdPageTest@22555ebf]" started-at="2023-09-30T17:09:37 IST" name="tearDown" finished-at="2023-09-30T17:09:37 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ictkerala.testcases.FacDashbdPageTest -->
+      <class name="org.ictkerala.testcases.LoginPageTest">
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:37 IST" name="configMethod" finished-at="2023-09-30T17:09:47 IST" duration-ms="9379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:47 IST" name="intitMethod" finished-at="2023-09-30T17:09:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="admValidLogin()[pri:1, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:47 IST" name="admValidLogin" description="admin valid login" finished-at="2023-09-30T17:09:48 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:48 IST" name="tearDown" finished-at="2023-09-30T17:09:48 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:48 IST" name="configMethod" finished-at="2023-09-30T17:09:54 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:54 IST" name="intitMethod" finished-at="2023-09-30T17:09:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="admValEmailInvalPass()[pri:2, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:54 IST" name="admValEmailInvalPass" description="admin valid email/invalid password" finished-at="2023-09-30T17:09:56 IST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admValEmailInvalPass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:56 IST" name="tearDown" finished-at="2023-09-30T17:09:56 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:09:56 IST" name="configMethod" finished-at="2023-09-30T17:10:03 IST" duration-ms="6929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:03 IST" name="intitMethod" finished-at="2023-09-30T17:10:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="admLogout()[pri:3, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:03 IST" name="admLogout" description="admin logout" finished-at="2023-09-30T17:10:04 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:04 IST" name="tearDown" finished-at="2023-09-30T17:10:04 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:04 IST" name="configMethod" finished-at="2023-09-30T17:10:13 IST" duration-ms="9262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:13 IST" name="intitMethod" finished-at="2023-09-30T17:10:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="facValidLogin()[pri:4, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:13 IST" name="facValidLogin" description="faculty valid login" finished-at="2023-09-30T17:10:14 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:14 IST" name="tearDown" finished-at="2023-09-30T17:10:15 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:15 IST" name="configMethod" finished-at="2023-09-30T17:10:21 IST" duration-ms="6142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:21 IST" name="intitMethod" finished-at="2023-09-30T17:10:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="facValEmailInvalPass()[pri:5, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:21 IST" name="facValEmailInvalPass" description="faculty valid email/invalid password" finished-at="2023-09-30T17:10:22 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facValEmailInvalPass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:22 IST" name="tearDown" finished-at="2023-09-30T17:10:22 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:22 IST" name="configMethod" finished-at="2023-09-30T17:10:45 IST" duration-ms="22699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:45 IST" name="intitMethod" finished-at="2023-09-30T17:10:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="facLogout()[pri:6, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:45 IST" name="facLogout" description="faculty logout" finished-at="2023-09-30T17:10:46 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.LoginPageTest@44c03695]" started-at="2023-09-30T17:10:46 IST" name="tearDown" finished-at="2023-09-30T17:10:46 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ictkerala.testcases.LoginPageTest -->
+      <class name="org.ictkerala.testcases.AdmDashbdPageTest">
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:10:46 IST" name="configMethod" finished-at="2023-09-30T17:10:53 IST" duration-ms="7061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:10:53 IST" name="login" finished-at="2023-09-30T17:10:54 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyCreateReqt()[pri:2, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:10:54 IST" name="verifyCreateReqt" description="verify Create requirement functionality" finished-at="2023-09-30T17:10:58 IST" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateReqt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:10:58 IST" name="tearDown" finished-at="2023-09-30T17:10:58 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:10:58 IST" name="configMethod" finished-at="2023-09-30T17:11:05 IST" duration-ms="6959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:11:05 IST" name="login" finished-at="2023-09-30T17:11:06 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="apprCurrlm()[pri:5, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:11:06 IST" name="apprCurrlm" description="approve pending curriculum " finished-at="2023-09-30T17:11:07 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apprCurrlm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.AdmDashbdPageTest@7e6f74c]" started-at="2023-09-30T17:11:07 IST" name="tearDown" finished-at="2023-09-30T17:11:08 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ictkerala.testcases.AdmDashbdPageTest -->
+      <class name="org.ictkerala.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:08 IST" name="configMethod" finished-at="2023-09-30T17:11:14 IST" duration-ms="6735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:14 IST" name="intitMethod" finished-at="2023-09-30T17:11:15 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="verifyCrtAcctNowLink()[pri:1, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:15 IST" name="verifyCrtAcctNowLink" description="verify faculty Create Account link" finished-at="2023-09-30T17:11:15 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCrtAcctNowLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:15 IST" name="tearDown" finished-at="2023-09-30T17:11:15 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:15 IST" name="configMethod" finished-at="2023-09-30T17:11:22 IST" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:22 IST" name="intitMethod" finished-at="2023-09-30T17:11:22 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="validSignUpTest()[pri:2, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:22 IST" name="validSignUpTest" description="create faculty account with valid data" finished-at="2023-09-30T17:11:23 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:23 IST" name="tearDown" finished-at="2023-09-30T17:11:23 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:23 IST" name="configMethod" finished-at="2023-09-30T17:11:36 IST" duration-ms="13106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:36 IST" name="intitMethod" finished-at="2023-09-30T17:11:36 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="blankFieldsTest()[pri:3, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:36 IST" name="blankFieldsTest" description="create faculty account with blank fields" finished-at="2023-09-30T17:11:37 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankFieldsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:37 IST" name="tearDown" finished-at="2023-09-30T17:11:37 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:37 IST" name="configMethod" finished-at="2023-09-30T17:11:52 IST" duration-ms="15068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:52 IST" name="intitMethod" finished-at="2023-09-30T17:11:53 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="userNonAlph()[pri:4, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:53 IST" name="userNonAlph" description="user name has non alphabets" finished-at="2023-09-30T17:11:54 IST" duration-ms="906" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Name is required and should contain only alphabets] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Name is required and should contain only alphabets] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at org.ictkerala.testcases.SignUpPageTest.userNonAlph(SignUpPageTest.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNonAlph -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:54 IST" name="tearDown" finished-at="2023-09-30T17:11:54 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:11:54 IST" name="configMethod" finished-at="2023-09-30T17:12:01 IST" duration-ms="7685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:01 IST" name="intitMethod" finished-at="2023-09-30T17:12:02 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="emailInvalidChar()[pri:5, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:02 IST" name="emailInvalidChar" description="email invalid" finished-at="2023-09-30T17:12:03 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailInvalidChar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:03 IST" name="tearDown" finished-at="2023-09-30T17:12:03 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:03 IST" name="configMethod" finished-at="2023-09-30T17:12:09 IST" duration-ms="6662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:09 IST" name="intitMethod" finished-at="2023-09-30T17:12:10 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="phoneMoreThan10()[pri:6, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:10 IST" name="phoneMoreThan10" description="phone number greater than 10 digits" finished-at="2023-09-30T17:12:10 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneMoreThan10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:10 IST" name="tearDown" finished-at="2023-09-30T17:12:11 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:11 IST" name="configMethod" finished-at="2023-09-30T17:12:24 IST" duration-ms="12955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:24 IST" name="intitMethod" finished-at="2023-09-30T17:12:24 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="phoneLessThan10()[pri:7, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:24 IST" name="phoneLessThan10" description="phone number less than 10 digits" finished-at="2023-09-30T17:12:25 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneLessThan10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:25 IST" name="tearDown" finished-at="2023-09-30T17:12:25 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:25 IST" name="configMethod" finished-at="2023-09-30T17:12:31 IST" duration-ms="6317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:31 IST" name="intitMethod" finished-at="2023-09-30T17:12:32 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="passLessThan6Char()[pri:8, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:32 IST" name="passLessThan6Char" description="password invalid" finished-at="2023-09-30T17:12:32 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passLessThan6Char -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:32 IST" name="tearDown" finished-at="2023-09-30T17:12:33 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:33 IST" name="configMethod" finished-at="2023-09-30T17:12:49 IST" duration-ms="16401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:49 IST" name="intitMethod" finished-at="2023-09-30T17:12:49 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="phoneNoInvalidChar()[pri:8, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:49 IST" name="phoneNoInvalidChar" description="phone number invalid characters" finished-at="2023-09-30T17:12:50 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNoInvalidChar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:50 IST" name="tearDown" finished-at="2023-09-30T17:12:50 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:50 IST" name="configMethod" finished-at="2023-09-30T17:12:57 IST" duration-ms="6191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configMethod -->
+        <test-method is-config="true" signature="intitMethod()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:57 IST" name="intitMethod" finished-at="2023-09-30T17:12:57 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitMethod -->
+        <test-method signature="confirmPassNotMatching()[pri:9, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:57 IST" name="confirmPassNotMatching" description="confirm password different" finished-at="2023-09-30T17:12:58 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmPassNotMatching -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ictkerala.testcases.SignUpPageTest@dd05255]" started-at="2023-09-30T17:12:58 IST" name="tearDown" finished-at="2023-09-30T17:12:58 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ictkerala.testcases.SignUpPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

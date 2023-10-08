@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\SoftwareTestingCourse\Java\ICTAKCurriculumTracker\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="userNonAlph">userNonAlph</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.FacDashbdPageTest" class="method navigator-link" hash-for-method="SearchEditReqt">SearchEditReqt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.LoginPageTest" class="method navigator-link" hash-for-method="admLogout">admLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.LoginPageTest" class="method navigator-link" hash-for-method="admValEmailInvalPass">admValEmailInvalPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.LoginPageTest" class="method navigator-link" hash-for-method="admValidLogin">admValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.AdmDashbdPageTest" class="method navigator-link" hash-for-method="apprCurrlm">apprCurrlm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="blankFieldsTest">blankFieldsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="confirmPassNotMatching">confirmPassNotMatching</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="emailInvalidChar">emailInvalidChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.LoginPageTest" class="method navigator-link" hash-for-method="facLogout">facLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.LoginPageTest" class="method navigator-link" hash-for-method="facValEmailInvalPass">facValEmailInvalPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.LoginPageTest" class="method navigator-link" hash-for-method="facValidLogin">facValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="passLessThan6Char">passLessThan6Char</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="phoneLessThan10">phoneLessThan10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="phoneMoreThan10">phoneMoreThan10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="phoneNoInvalidChar">phoneNoInvalidChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="validSignUpTest">validSignUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.AdmDashbdPageTest" class="method navigator-link" hash-for-method="verifyCreateReqt">verifyCreateReqt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.ictkerala.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="verifyCrtAcctNowLink">verifyCrtAcctNowLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.ictkerala.testcases.SignUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userNonAlph">
+                  </a> <!-- userNonAlph -->
+                  <span class="method-name">userNonAlph</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Name is required and should contain only alphabets] but found []
+	at org.ictkerala.testcases.SignUpPageTest.userNonAlph(SignUpPageTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(user name has non alphabets)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ictkerala.testcases.AdmDashbdPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apprCurrlm">
+                  </a> <!-- apprCurrlm -->
+                  <span class="method-name">apprCurrlm</span>
+                  <em>
+(approve pending curriculum )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateReqt">
+                  </a> <!-- verifyCreateReqt -->
+                  <span class="method-name">verifyCreateReqt</span>
+                  <em>
+(verify Create requirement functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ictkerala.testcases.FacDashbdPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchEditReqt">
+                  </a> <!-- SearchEditReqt -->
+                  <span class="method-name">SearchEditReqt</span>
+                  <em>
+(verify search functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ictkerala.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="admLogout">
+                  </a> <!-- admLogout -->
+                  <span class="method-name">admLogout</span>
+                  <em>
+(admin logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="admValEmailInvalPass">
+                  </a> <!-- admValEmailInvalPass -->
+                  <span class="method-name">admValEmailInvalPass</span>
+                  <em>
+(admin valid email/invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="admValidLogin">
+                  </a> <!-- admValidLogin -->
+                  <span class="method-name">admValidLogin</span>
+                  <em>
+(admin valid login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facLogout">
+                  </a> <!-- facLogout -->
+                  <span class="method-name">facLogout</span>
+                  <em>
+(faculty logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facValEmailInvalPass">
+                  </a> <!-- facValEmailInvalPass -->
+                  <span class="method-name">facValEmailInvalPass</span>
+                  <em>
+(faculty valid email/invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facValidLogin">
+                  </a> <!-- facValidLogin -->
+                  <span class="method-name">facValidLogin</span>
+                  <em>
+(faculty valid login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ictkerala.testcases.SignUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankFieldsTest">
+                  </a> <!-- blankFieldsTest -->
+                  <span class="method-name">blankFieldsTest</span>
+                  <em>
+(create faculty account with blank fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmPassNotMatching">
+                  </a> <!-- confirmPassNotMatching -->
+                  <span class="method-name">confirmPassNotMatching</span>
+                  <em>
+(confirm password different)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailInvalidChar">
+                  </a> <!-- emailInvalidChar -->
+                  <span class="method-name">emailInvalidChar</span>
+                  <em>
+(email invalid)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passLessThan6Char">
+                  </a> <!-- passLessThan6Char -->
+                  <span class="method-name">passLessThan6Char</span>
+                  <em>
+(password invalid)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phoneLessThan10">
+                  </a> <!-- phoneLessThan10 -->
+                  <span class="method-name">phoneLessThan10</span>
+                  <em>
+(phone number less than 10 digits)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phoneMoreThan10">
+                  </a> <!-- phoneMoreThan10 -->
+                  <span class="method-name">phoneMoreThan10</span>
+                  <em>
+(phone number greater than 10 digits)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phoneNoInvalidChar">
+                  </a> <!-- phoneNoInvalidChar -->
+                  <span class="method-name">phoneNoInvalidChar</span>
+                  <em>
+(phone number invalid characters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validSignUpTest">
+                  </a> <!-- validSignUpTest -->
+                  <span class="method-name">validSignUpTest</span>
+                  <em>
+(create faculty account with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCrtAcctNowLink">
+                  </a> <!-- verifyCrtAcctNowLink -->
+                  <span class="method-name">verifyCrtAcctNowLink</span>
+                  <em>
+(verify faculty Create Account link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SoftwareTestingCourse\Java\ICTAKCurriculumTracker\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.ictkerala.testcases.TestBase&quot;/&gt;
+      &lt;class name=&quot;org.ictkerala.testcases.FacDashbdPageTest&quot;/&gt;
+      &lt;class name=&quot;org.ictkerala.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;org.ictkerala.testcases.AdmDashbdPageTest&quot;/&gt;
+      &lt;class name=&quot;org.ictkerala.testcases.SignUpPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SearchEditReqt')
+data.setCell(0, 2, 'org.ictkerala.testcases.FacDashbdPageTest')
+data.setCell(0, 3, 4218);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCreateReqt')
+data.setCell(1, 2, 'org.ictkerala.testcases.AdmDashbdPageTest')
+data.setCell(1, 3, 3983);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'apprCurrlm')
+data.setCell(2, 2, 'org.ictkerala.testcases.AdmDashbdPageTest')
+data.setCell(2, 3, 1397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'facValidLogin')
+data.setCell(3, 2, 'org.ictkerala.testcases.LoginPageTest')
+data.setCell(3, 3, 1303);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'facLogout')
+data.setCell(4, 2, 'org.ictkerala.testcases.LoginPageTest')
+data.setCell(4, 3, 1220);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'admValEmailInvalPass')
+data.setCell(5, 2, 'org.ictkerala.testcases.LoginPageTest')
+data.setCell(5, 3, 1217);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validSignUpTest')
+data.setCell(6, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(6, 3, 1080);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'facValEmailInvalPass')
+data.setCell(7, 2, 'org.ictkerala.testcases.LoginPageTest')
+data.setCell(7, 3, 1078);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'admValidLogin')
+data.setCell(8, 2, 'org.ictkerala.testcases.LoginPageTest')
+data.setCell(8, 3, 989);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'admLogout')
+data.setCell(9, 2, 'org.ictkerala.testcases.LoginPageTest')
+data.setCell(9, 3, 988);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'passLessThan6Char')
+data.setCell(10, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(10, 3, 909);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'userNonAlph')
+data.setCell(11, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(11, 3, 906);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'phoneNoInvalidChar')
+data.setCell(12, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(12, 3, 880);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'phoneLessThan10')
+data.setCell(13, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(13, 3, 864);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'confirmPassNotMatching')
+data.setCell(14, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(14, 3, 859);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'phoneMoreThan10')
+data.setCell(15, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(15, 3, 815);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'emailInvalidChar')
+data.setCell(16, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(16, 3, 808);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'blankFieldsTest')
+data.setCell(17, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(17, 3, 756);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyCrtAcctNowLink')
+data.setCell(18, 2, 'org.ictkerala.testcases.SignUpPageTest')
+data.setCell(18, 3, 9);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ictkerala.testcases.FacDashbdPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">8369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchEditReqt</span>
+                <span class="method-start">10290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14512 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ictkerala.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">14756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">24135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">admValidLogin</span>
+                <span class="method-start">24137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">25340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">31885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">admValEmailInvalPass</span>
+                <span class="method-start">31886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">33281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">40214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">admLogout</span>
+                <span class="method-start">40218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">41405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">50667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facValidLogin</span>
+                <span class="method-start">50669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">52156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">58298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facValEmailInvalPass</span>
+                <span class="method-start">58300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">59551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">82251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facLogout</span>
+                <span class="method-start">82253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83475 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ictkerala.testcases.AdmDashbdPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">83642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">90703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateReqt</span>
+                <span class="method-start">91536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">95714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">102673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">apprCurrlm</span>
+                <span class="method-start">103540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104950 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ictkerala.testcases.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">105206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">111942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCrtAcctNowLink</span>
+                <span class="method-start">112223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">112422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">119081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validSignUpTest</span>
+                <span class="method-start">119349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">120430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">120630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">133736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankFieldsTest</span>
+                <span class="method-start">134004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">134931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">149999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userNonAlph</span>
+                <span class="method-start">150218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">151310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">158995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailInvalidChar</span>
+                <span class="method-start">159244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">160217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">166880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phoneMoreThan10</span>
+                <span class="method-start">167187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">168003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">168194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">181149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phoneLessThan10</span>
+                <span class="method-start">181368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">182469 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">188786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passLessThan6Char</span>
+                <span class="method-start">189058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">190153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">206554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phoneNoInvalidChar</span>
+                <span class="method-start">206749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">207631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configMethod</span>
+                <span class="method-start">207839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">intitMethod</span>
+                <span class="method-start">214030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmPassNotMatching</span>
+                <span class="method-start">214371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">215230 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
